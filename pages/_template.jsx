@@ -2,8 +2,8 @@ import React from 'react';
 import { RouteHandler, Link, State } from 'react-router';
 import { Container, Grid, Breakpoint, Span } from 'react-responsive-grid';
 import Typography from 'typography';
-
-import styles from './_template.cssm';
+import classnames from 'classnames';
+import styles from './_template.css';
 
 var typography = new Typography();
 var rhythm = typography.rhythm, fontSizeToMS = typography.fontSizeToMS;
